@@ -12,7 +12,7 @@ def gameIntro():
   redo()
 
 def redo():
- print(“INCORRECT RESPONSE TRY AGAIN”)
+ print(“\n\nINCORRECT RESPONSE TRY AGAIN”)
  choice = input(“Ice powers, flight, or super speed. Which one will you choose?\n\n”)
  if choice == “ice” or choice == ”Ice” or choice == “ice powers” or choice == ”Ice powers” or choice == “ice power” or choice == “Ice power”:
   ice()
@@ -34,7 +34,7 @@ def ice():
   redoIce()
 
 def redoIce():
- print(“INCORRECT RESPONSE TRY AGAIN”)
+ print(“\n\nINCORRECT RESPONSE TRY AGAIN”)
  choice = input(“Which way should you go?\n\n”)
  if choice == “cry” or choice == “Cry” or choice == “cry for help” or choice == “Cry for help”:
   cry()
@@ -55,7 +55,7 @@ def cry():
   redoCry()
 
 def redoCry():
- print(“INCORRECT RESPONSE TRY AGAIN”)
+ print(“\n\nINCORRECT RESPONSE TRY AGAIN”)
  choice = input(“Should you jump into action or use stealth?\n\n”)
  if choice == “jump into action” or choice == “Jump into action” or choice == “action” or choice == “Action”:
   action()
@@ -76,7 +76,7 @@ def stealth():
   redoStealth()
 
 def redoStealth():
- print(“INCORRECT RESPONSE TRY AGAIN”)
+ print(“\n\nINCORRECT RESPONSE TRY AGAIN”)
  choice = input(“Do you let him go and follow him, or freeze and interrogate him?\n\n”)
  if choice == “follow him” or choice == “Follow him” or choice == “let him go” or choice == “Let him go” or choice == “let him go and follow him” or choice == “Let him go and follow him”:
   follow()
@@ -92,8 +92,10 @@ def follow():
  choice = input(“Ending 7   Do you want to play again?\n\n”)
  if choice == “yes” or choice == “Yes”:
   gameIntro()
+ elif choice == “no” or choice == “No”:
+  print(“\n\nTHANKS FOR PLAYING”)
  else:
-  print(“THANKS FOR PLAYING”)
+  redoPlay()
 
 def interrogate():
  print(“\n\nYou shoot ice out of your hands and freeze the would-be ambusher to the wall.”)
@@ -103,8 +105,10 @@ def interrogate():
  choice = input(“Ending 8   Do you want to play again?\n\n”)
  if choice == “yes” or choice == “Yes”:
   gameIntro()
+ elif choice == “no” or choice == “No”:
+  print(“\n\nTHANKS FOR PLAYING”)
  else:
-  print(“THANKS FOR PLAYING”)
+  redoPlay()
 
 def action():
  print(\n\n“You jump down into the alleyway and take out the mugger.”)
@@ -119,7 +123,7 @@ def action():
   redoAction()
 
 def redoAction():
- print(“INCORRECT RESPONSE TRY AGAIN”)
+ print(“\n\nINCORRECT RESPONSE TRY AGAIN”)
  choice = input(“Do you surrender or fight back?\n\n”)
  if choice == “surrender” or choice == “Surrender”:
   surrender()
@@ -137,8 +141,10 @@ def surrender():
  choice = input(“Ending 5   Do you want to play again?\n\n”)
  if choice == “yes” or choice == “Yes”:
   gameIntro()
+ elif choice == “no” or choice == “No”:
+  print(“\n\nTHANKS FOR PLAYING”)
  else:
-  print(“THANKS FOR PLAYING”)
+  redoPlay()
 
 def fight():
  print(“\n\nYou attempt to blast the person holding the gun with ice, but “)
@@ -146,8 +152,10 @@ def fight():
  choice = input(“Ending 6   Do you want to play again?\n\n”)
  if choice == “yes” or choice == “Yes”:
   gameIntro()
+ elif choice == “no” or choice == “No”:
+  print(“\n\nTHANKS FOR PLAYING”)
  else:
-  print(“THANKS FOR PLAYING”)
+  redoPlay()
 
 def explosion():
  print(“\n\nYou make it to the site of the explosion and discover that the prison “)
@@ -163,7 +171,7 @@ def explosion():
   redoExplosion()
 
 def redoExplosion():
- print(“INCORRECT RESPONSE TRY AGAIN”)
+ print(“\n\nINCORRECT RESPONSE TRY AGAIN”)
  choice = input(“Do you put of the fire or chase Doctor Malice?\n\n”)
  if choice == “fire” or choice == “Fire” or choice == “put out fire” or choice == “Put out fire” or choice == “put out the fire” or choice == “Put out the fire”:
   fire()
@@ -185,7 +193,7 @@ def fire():
   redoFire()
 
 def redoFire():
- print(“INCORRECT RESPONSE TRY AGAIN”)
+ print(“\n\nINCORRECT RESPONSE TRY AGAIN”)
  choice = input(“Will you investigate the prison or catch Doctor Malice?\n\n”)
  if choice == “investigate” or choice == “Investigate” or choice == “investigate the prison” or choice == “Investigate the prison” or choice == “investigate prison” or choice == “Investigate prison”:
   investigate()
@@ -201,8 +209,10 @@ def investigate():
  choice =input(“Ending 1   Do you want to play again?\n\n”)
  if choice == “yes” or choice == “Yes”:
   gameIntro()
+ elif choice == “no” or choice == “No”:
+  print(“\n\nTHANKS FOR PLAYING”)
  else:
-  print(“THANKS FOR PLAYING”)
+  redoPlay()
 
 def catch():
  print(“\n\nYou decide to let the mysterious person go and hunt down the more significant threat.”)
@@ -214,8 +224,10 @@ def catch():
  choice = input(“Ending 2   Do you want to play again?\n\n”)
  if choice == “yes” or choice == “Yes”:
   gameIntro()
+ elif choice == “no” or choice == “No”:
+  print(“\n\nTHANKS FOR PLAYING”)
  else:
-  print(“THANKS FOR PLAYING”)
+  redoPlay()
 
 def malice():
  print(“\n\nYou blast a beam of ice at Doctor Malice freezing him in his tracks.”)
@@ -229,7 +241,7 @@ def malice():
   redoMalice()
 
 def redoMalice():
- print(“INCORRECT RESPONSE TRY AGAIN”)
+ print(“\n\nINCORRECT RESPONSE TRY AGAIN”)
  choice = input(“Do you block or attack?\n\n”)
  if choice == “block” or choice == “Block”:
   block()
@@ -247,8 +259,22 @@ def attack():
  choice = input(“Ending 3   Do you want to play again?\n\n”)
  if choice == “yes” or choice == “Yes”:
   gameIntro()
+ elif choice == “no” or choice == “No”:
+  print(“\n\nTHANKS FOR PLAYING”)
  else:
-  print(“THANKS FOR PLAYING”)
+  redoPlay()
+
+def block():
+ print(“\n\nYou create a wall of ice, blocking the malice energy.”)
+ print(“Before Doctor Malice can send out a second attack, you freeze him from the neck down”)
+ print(“Capital City is safe. Doctor Malice will be going away for a long time.”)
+ choice = input(“Ending 4 Do you want to play again?\n\n”)
+ if choice == “yes” or choice == “Yes”:
+  gameIntro()
+ elif choice == “no” or choice == “No”:
+  print(“\n\nTHANKS FOR PLAYING”)
+ else:
+  redoPlay() 
 
 def flight():
  print(“\n\nTime passes, and you become the soaring hero known as Wind Rider.”)
@@ -263,7 +289,7 @@ def flight():
   redoFlight()
 
 def redoFlight():
- print(“INCORRECT RESPONSE TRY AGAIN”)
+ print(“\n\nINCORRECT RESPONSE TRY AGAIN”)
  choice = input(“Do you fly into the tornado or attack Cyclone?\n\n”)
  if choice == “fly” or choice == “Fly” or choice == “fly into the tornado” or choice == “Fly into the tornado” or choice == “Fly into tornado” or choice == “fly into tornado” or choice == “tornado” or choice == “Tornado” or choice == “The tornado” or choice == “the tornado”:
   tornado()
@@ -284,7 +310,7 @@ def tornado():
   redoTornado()
 
 def redoTornado():
- print(“INCORRECT RESPONSE TRY AGAIN”)
+ print(“\n\nINCORRECT RESPONSE TRY AGAIN”)
  choice = input(“You can either start flying people to safety or get back to the tornado.\n\n”)
  if choice == “fly people to safety” or choice == “Fly people to safety” or choice == “flying people to safety” or choice == “Flying people to safety” or choice == “fly people” or choice == “Fly people”:
   safety()
@@ -305,7 +331,7 @@ def safety():
   redoSaftey()
 
 def redoSaftey():
- print(“INCORRECT RESPONSE TRY AGAIN”)
+ print(“\n\nINCORRECT RESPONSE TRY AGAIN”)
  choice = input(“Do you try and take him out now or lead him away from the people?\n\n”)
  if choice == “take him out” or choice == “Take him out” or choice == “Take him out now” or choice == “take him out now” or choice == “Take out” or choice == “take out”:
   takeout()
@@ -321,8 +347,10 @@ def lead():
  choice = input(“Ending 9   Do you want to play again?\n\n”)
  if choice == “yes” or choice == “Yes”:
   gameIntro()
+ elif choice == “no” or choice == “No”:
+  print(“\n\nTHANKS FOR PLAYING”)
  else:
-  print(“THANKS FOR PLAYING”)
+  redoPlay()
 
 def takeout():
  print(“\n\nYou begin to battle Cyclone. Both of you fly around attacking and dodging each other.”)
@@ -331,8 +359,10 @@ def takeout():
  choice = input(“Ending 10   Do you want to play again?\n\n”)
  if choice == “yes” or choice == “Yes”:
   gameIntro()
+ elif choice == “no” or choice == “No”:
+  print(“\n\nTHANKS FOR PLAYING”)
  else:
-  print(“THANKS FOR PLAYING”)
+  redoPlay()
 
 def back():
  print(“\n\nYou manage to fly back to the tornado, but now you have to stop it.”)
@@ -345,7 +375,7 @@ def back():
   redoBack()
 
 def redoBack():
- print (“INCORRECT RESPONSE TRY AGAIN”)
+ print (“\n\nINCORRECT RESPONSE TRY AGAIN”)
  choice = input(“Should you fly around or into the tornado?\n\n”)
  if choice == “around” or choice == “Around” or choice == “fly around” or choice == “Fly around” or choice == “fly around tornado” or choice == “Fly around tornado” or choice == “Fly around the tornado” or choice == “fly around the tornado”:
   around()
@@ -360,8 +390,10 @@ def around():
  choice = input(“Ending 11   Do you want to play again?\n\n”)
  if choice == “yes” or choice == “Yes”:
   gameIntro()
+ elif choice == “no” or choice == “No”:
+  print(“\n\nTHANKS FOR PLAYING”)
  else:
-  print(“THANKS FOR PLAYING”)
+  redoPlay()
 
 def into():
  print(“\n\nYou grab Cyclone and fly him into the tornado.”)
@@ -371,8 +403,10 @@ def into():
  choice = input(“Ending 12   Do you want to play again?\n\n”)
  if choice == “yes” or choice == “Yes”:
   gameIntro()
+ elif choice == “no” or choice == “No”:
+  print(“\n\nTHANKS FOR PLAYING”)
  else:
-  print(“THANKS FOR PLAYING”)
+  redoPlay()
 
 def cyclone():
  print(“\n\nYou fly into Cyclone and the attack causes him to lose focus, making the tornado stop.”)
@@ -387,7 +421,7 @@ def cyclone():
   redoCyclone()
 
 def redoCyclone():
- print(“INCORRECT RESPONSE TRY AGAIN”)
+ print(“\n\nINCORRECT RESPONSE TRY AGAIN”)
  choice = input(“Do you dodge it by flying higher or landing on the ground?\n\n”)
  if choice == “fly higher” or choice == “Fly higher” or choice == “higher” or choice == “Higher” or choice == “Flying higher” or choice == “flying higher”:
   high()
@@ -408,7 +442,7 @@ def high():
   redoHigh()
 
 def redoHigh():
- print(“INCORRECT RESPONSE TRY AGAIN”)
+ print(“\n\nINCORRECT RESPONSE TRY AGAIN”)
  choice = input(“You can hide in the clouds and ambush Cyclone or use the clouds to escape.\n\n”)
  if choice == “hide” or choice == “Hide” or choice == “Hide in the clouds” or choice == “hide in the clouds” or choice == “ambush Cyclone” or choice == “Ambush Cyclone” or choice == “ambush cyclone” or choice == “ambush Cyclone” or choice == “hide in clouds” or choice == “Hide in clouds” or choice == “hide in the clouds and ambush cyclone” or choice == “Hide in the clouds and ambush cyclone” or choice == “hide in the clouds and ambush Cyclone” or choice == “Hide in the clouds and ambush Cyclone”:
   ambush()
@@ -424,8 +458,10 @@ def ambush():
  choice = input(“Ending 13   Do you want to play again?\n\n”)
  if choice == “yes” or choice == “Yes”:
   gameIntro()
+ elif choice == “no” or choice == “No”:
+  print(“\n\nTHANKS FOR PLAYING”)
  else:
-  print(“THANKS FOR PLAYING”)
+  redoPlay()
 
 def escape():
  print(“\n\nYou fly into the clouds hoping to lose Cyclone. Eventually you can no longer hear him.”)
@@ -434,8 +470,10 @@ def escape():
  choice = input(“Ending 14   Do you want to play again?\n\n”)
  if choice == “yes” or choice == “Yes”:
   gameIntro()
+ elif choice == “no” or choice == “No”:
+  print(“\n\nTHANKS FOR PLAYING”)
  else:
-  print(“THANKS FOR PLAYING”)
+  redoPlay()
 
 def ground():
  print(“\n\nYou land on the ground shouting at people to leave the area.”)
@@ -450,7 +488,7 @@ def ground():
   redoGround()
 
 def redoGround():
- print(“INCORRECT RESPONSE TRY AGAIN”)
+ print(“\n\nINCORRECT RESPONSE TRY AGAIN”)
  choice = input(“You can now either knock down cyclone or grab him.\n\n”)
  if choice == “knock down cyclone” or choice == “Knock down cyclone” or choice == “Knock down Cyclone” or choice == “knock down Cyclone” or choice == “knock them down” or choice == “Knock them down” or choice == “knock down” or choice == “Knock down”:
   knock()
@@ -465,8 +503,10 @@ def knock():
  choice = input(“Ending 15   Do you want to play again?\n\n”)
  if choice == “yes” or choice == “Yes”:
   gameIntro()
+ elif choice == “no” or choice == “No”:
+  print(“\n\nTHANKS FOR PLAYING”)
  else:
-  print(“THANKS FOR PLAYING”)
+  redoPlay()
 
 def grab():
  print(“\n\nYou grab Cyclone, fly into the air and spin around eventually letting him go.”)
@@ -474,8 +514,10 @@ def grab():
  choice = input(“Ending 16   Do you want to play again?\n\n”)
  if choice == “yes” or choice == “Yes”:
   gameIntro()
+ elif choice == “no” or choice == “No”:
+  print(“\n\nTHANKS FOR PLAYING”)
  else:
-  print(“THANKS FOR PLAYING”)
+  redoPlay()
 
 def speed():
  print(“\n\nTime goes by and with your super speed powers you, the hero known as Blur, run through Capital City looking for crime.”)
@@ -492,7 +534,7 @@ def speed():
   redoSpeed()
 
 def redoSpeed():
- print(“INCORRECT RESPONSE TRY AGAIN”)
+ print(“\n\nINCORRECT RESPONSE TRY AGAIN”)
  choice = input(“Do you accept the race or attack?\n\n”)
  if choice == “accept the race” or choice == “Accept the race” or choice == “I accept” or choice == “I accept the race” or choice == “Race” or choice == “race” or choice == “race her” or choice == “Race her” or choice == “accept race” or choice == “Accept race”:
   race()
@@ -516,7 +558,7 @@ def race():
   redoRace()
 
 def redoRace():
- print(“INCORRECT RESPONSE TRY AGAIN”)
+ print(“\n\nINCORRECT RESPONSE TRY AGAIN”)
  choice = input(“Do you risk it and run faster or keep the same speed?\n\n”)
  if choice == “risk it” or choice == “Risk it” or choice == “run faster” or choice == “Run faster” or choice == “Risk it and run faster” or choice == “risk it and run faster”:
   fast()
@@ -534,8 +576,10 @@ def fast():
  choice = input(“Ending 17   Do you want to play again?\n\n”)
  if choice == “yes” or choice == “Yes”:
   gameIntro()
+ elif choice == “no” or choice == “No”:
+  print(“\n\nTHANKS FOR PLAYING”)
  else:
-  print(“THANKS FOR PLAYING”)
+  redoPlay()
 
 def same():
  print(“\n\nYou decide to not risk your molecules burning up, or whatever would happen, and keep the same speed.”)
@@ -544,8 +588,10 @@ def same():
  choice = input(“Ending 18   Do you want to play again?\n\n”)
  if choice == “yes” or choice == “Yes”:
   gameIntro()
+ elif choice == “no” or choice == “No”:
+  print(“\n\nTHANKS FOR PLAYING”)
  else:
-  print(“THANKS FOR PLAYING”)
+  redoPlay()
 
 def attackHer():
  print(“\n\nWith your speed you hit them before they see it coming.”)
@@ -560,7 +606,7 @@ def attackHer():
   redoAttackher()
 
 def redoAttackher():
- print(“INCORRECT RESPONSE TRY AGAIN”)
+ print(“\n\nINCORRECT RESPONSE TRY AGAIN”)
  choice = input(“You get seperated and she charges at you. Will you trip her or dodge her?\n\n”)
  if choice == “trip” or choice == “Trip” or choice == “trip her” or choice == “Trip her”:
   trip()
@@ -577,8 +623,10 @@ def dodge():
  choice = input(“Ending 19   Do you want to play again?\n\n”)
  if choice == “yes” or choice == “Yes”:
   gameIntro()
+ elif choice == “no” or choice == “No”:
+  print(“\n\nTHANKS FOR PLAYING”)
  else:
-  print(“THANKS FOR PLAYING”)
+  redoPlay()
 
 def trip():
  print(“\n\nAs she charges at you; you stick your foot out causing her to trip.”)
@@ -589,7 +637,20 @@ def trip():
  choice = input(“Ending 20   Do you want to play again?\n\n”)
  if choice == “yes” or choice == “Yes”:
   gameIntro()
+ elif choice == “no” or choice == “No”:
+  print(“\n\nTHANKS FOR PLAYING”)
  else:
-  print(“THANKS FOR PLAYING”)
+  redoPlay()
+
+def redoPlay():
+ print(“\n\nINCORRECT RESPONSE TRY AGAIN”)
+ choice = input(“Do you want to play again?\n\n”)
+ if choice == “yes” or choice == “Yes”:
+  gameIntro()
+ elif choice == “no” or choice == “No”:
+  print(“\n\nTHANKS FOR PLAYING”)
+ else:
+  redoPlay()
+
 
 gameIntro()
