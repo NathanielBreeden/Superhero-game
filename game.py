@@ -4,9 +4,9 @@ def gameIntro():
  choice = input(“Ice powers, flight, or super speed. Which one will you choose?\n\n”)
  if choice == “ice” or choice == ”Ice” or choice == “ice powers” or choice == ”Ice powers” or choice == “ice power” or choice == “Ice power”:
   ice()
- elif choice == “flight” or choice == “Flight”:
+ elif choice == “flight” or choice == “Flight” or choice == “Flight power” or choice == “flight power” or choice == “flight powers” or choice == “Flight powers”:
   flight()
- elif choice == “super speed” or choice == “Super speed” or choice == “speed” or choice == “Speed”:
+ elif choice == “super speed” or choice == “Super speed” or choice == “speed” or choice == “Speed” or choice == “super speed power” or choice == “Super speed power” or choice == “Super speed powers” or choice == “super speed powers” or choice == “speed powers” or choice == “Speed powers” or choice == “speed power” or choice == “Speed powers”:
   speed()
  else:
   redo()
@@ -16,9 +16,9 @@ def redo():
  choice = input(“Ice powers, flight, or super speed. Which one will you choose?\n\n”)
  if choice == “ice” or choice == ”Ice” or choice == “ice powers” or choice == ”Ice powers” or choice == “ice power” or choice == “Ice power”:
   ice()
- elif choice == “flight” or choice == “Flight”:
+ elif choice == “flight” or choice == “Flight” or choice == “Flight power” or choice == “flight power” or choice == “flight powers” or choice == “Flight powers”:
   flight()
- elif choice == “super speed” or choice == “Super speed” or choice == “speed” or choice == “Speed”:
+ elif choice == “super speed” or choice == “Super speed” or choice == “speed” or choice == “Speed” or choice == “super speed power” or choice == “Super speed power” or choice == “Super speed powers” or choice == “super speed powers” or choice == “speed powers” or choice == “Speed powers” or choice == “speed power” or choice == “Speed powers”:
   speed()
  else:
   redo()
@@ -47,7 +47,7 @@ def cry():
  print(“\n\nYou make your way to where you heard the cry. When you reach the alley, you see what looks “)
  print(“like someone being mugged.”)
  choice = input(“Should you jump into action or use stealth?\n\n”)
- if choice == “jump into action” or choice == “Jump into action” or choice == “action” or choice == “Action”:
+ if choice == “jump into action” or choice == “Jump into action” or choice == “action” or choice == “Action” or choice == “jump” or choice == “Jump”:
   action()
  elif choice == “Stealth” or choice == “stealth” or choice == “Use stealth” or choice == “use stealth”:
   stealth()
@@ -57,7 +57,7 @@ def cry():
 def redoCry():
  print(“\n\nINCORRECT RESPONSE TRY AGAIN”)
  choice = input(“Should you jump into action or use stealth?\n\n”)
- if choice == “jump into action” or choice == “Jump into action” or choice == “action” or choice == “Action”:
+ if choice == “jump into action” or choice == “Jump into action” or choice == “action” or choice == “Action” or choice == “Jump” or choice == “jump”:
   action()
  elif choice == “Stealth” or choice == “stealth” or choice == “use stealth” or choice == “Use stealth”:
   stealth()
@@ -68,9 +68,9 @@ def stealth():
  print(“\n\nFrom the rooftop you blast ice at the mugger and freeze him to the wall.”)
  print(“This causes the victim to scream and pull out a gun. It was an ambush.”)
  choice = input(“Do you let him go and follow him, or freeze and interrogate him?\n\n”)
- if choice == “follow him” or choice == “Follow him” or choice == “let him go” or choice == “Let him go” or choice == “let him go and follow him” or choice == “Let him go and follow him”:
+ if choice == “follow him” or choice == “Follow him” or choice == “let him go” or choice == “Let him go” or choice == “let him go and follow him” or choice == “Let him go and follow him” or choice == “follow” or choice == “Follow” or choice == “let go” or choice == “Let go”:
   follow()
- elif choice == “interrogate him” or choice == “Interrogate him” or choice == “freeze him” or choice == “Freeze him” or choice == “freeze and interrogate him” or choice == “Freeze and interrogate him”:
+ elif choice == “interrogate him” or choice == “Interrogate him” or choice == “freeze him” or choice == “Freeze him” or choice == “freeze and interrogate him” or choice == “Freeze and interrogate him” or choice == “freeze” or choice == “Freeze” or choice == “interrogate” or choice == “Interrogate”:
   interrogate()
  else:
   redoStealth()
@@ -78,9 +78,9 @@ def stealth():
 def redoStealth():
  print(“\n\nINCORRECT RESPONSE TRY AGAIN”)
  choice = input(“Do you let him go and follow him, or freeze and interrogate him?\n\n”)
- if choice == “follow him” or choice == “Follow him” or choice == “let him go” or choice == “Let him go” or choice == “let him go and follow him” or choice == “Let him go and follow him”:
+ if choice == “follow him” or choice == “Follow him” or choice == “let him go” or choice == “Let him go” or choice == “let him go and follow him” or choice == “Let him go and follow him” or choice == “follow” or choice == “Follow” or choice == “let go” or choice == “Let go”:
   follow()
- elif choice == “interrogate him” or choice == “Interrogate him” or choice == “freeze him” or choice == “Freeze him” or choice == “freeze and interrogate him” or choice == “Freeze and interrogate him”:
+ elif choice == “interrogate him” or choice == “Interrogate him” or choice == “freeze him” or choice == “Freeze him” or choice == “freeze and interrogate him” or choice == “Freeze and interrogate him” or choice == “freeze” or choice == “Freeze” or choice == “interrogate” or choice == “Interrogate”:
   interrogate()
  else:
   redoStealth()
@@ -111,7 +111,7 @@ def interrogate():
   redoPlay()
 
 def action():
- print(\n\n“You jump down into the alleyway and take out the mugger.”)
+ print(“\n\nYou jump down into the alleyway and take out the mugger.”)
  print(“You turn around to see if the victim is ok, but instead you find “)
  print(“a gun pointed at your face! It was an ambush. They tell you to surrender.”)
  choice = input(“Do you surrender or fight back?\n\n”)
@@ -135,7 +135,7 @@ def redoAction():
 def surrender():
  print(“\n\nYou surrender and get knocked out. When you wake up you realize you are “)
  print(“tied up. The villain Scorch appears in front of you and tells you how this “)
- print(“was all a part of his plan to breakout of prison and capture you.”)
+ print(“was all a part of his plan to break out of prison and capture you.”)
  print(“Scorch tells you that you are hooked up to a brainwash machine and “)
  print(“that you are now under his command. He flips the switch, and everything goes black...”)
  choice = input(“Ending 5   Do you want to play again?\n\n”)
@@ -163,9 +163,9 @@ def explosion():
  print(“in the burning building, but you see that your arch foe, Doctor Malice, “)
  print(“is getting away.”)
  choice = input(“Do you put out the fire or chase Doctor Malice?\n\n”)
- if choice == “fire” or choice == “Fire” or choice == “put out fire” or choice == “Put out fire” or choice == “put out the fire” or choice == “Put out the fire”:
+ if choice == “fire” or choice == “Fire” or choice == “put out fire” or choice == “Put out fire” or choice == “put out the fire” or choice == “Put out the fire” or choice == “put out” or choice == “Put out” or choice == “the fire” or choice == “The fire”:
   fire()
- elif choice == “chase” or choice == “Chase” or choice == “chase doctor malice” or choice == “Chase doctor malice” or choice == “Chase Doctor Malice” or choice == “chase Doctor Malice” or choice == “Chase dr malice” or choice == “chase dr malice” or choice == “Chase Dr malice” or choice == “chase Dr malice” or choice == “chase dr Malice” or choice == “Chase dr malice” or choice == “chase Dr Malice” or choice == “Chase Dr Malice” or choice == “chase doctor Malice” or choice == “Chase doctor Malice” or choice == “Chase dr. malice” or choice == “chase dr. malice” or choice == “Chase Dr. malice” or choice == “chase Dr. malice” or choice == “chase dr. Malice” or choice == “Chase dr. malice” or choice == “chase Dr. Malice” or choice == “Chase Dr. Malice”:
+ elif choice == “chase” or choice == “Chase” or choice == “chase doctor malice” or choice == “Chase doctor malice” or choice == “Chase Doctor Malice” or choice == “chase Doctor Malice” or choice == “Chase dr malice” or choice == “chase dr malice” or choice == “Chase Dr malice” or choice == “chase Dr malice” or choice == “chase dr Malice” or choice == “Chase dr malice” or choice == “chase Dr Malice” or choice == “Chase Dr Malice” or choice == “chase doctor Malice” or choice == “Chase doctor Malice” or choice == “Chase dr. malice” or choice == “chase dr. malice” or choice == “Chase Dr. malice” or choice == “chase Dr. malice” or choice == “chase dr. Malice” or choice == “Chase dr. malice” or choice == “chase Dr. Malice” or choice == “Chase Dr. Malice” or choice == “chase Doctor malice” or choice == “Chase Doctor Malice” or choice == “chase doctor Malice” or choice == “Chase doctor Malice” or choice == “Doctor Malice” or choice == “Doctor malice” or choice == “doctor malice” or choice == “doctor Malice” or choice == “dr malice” or choice == “dr Malice” or choice == “Dr malice” or choice == “Dr Malice” or choice == “dr. malice” or choice == “dr. Malice” or choice == “Dr. Malice” or choice == “Dr. malice”:
   malice()
  else:
   redoExplosion()
@@ -173,9 +173,9 @@ def explosion():
 def redoExplosion():
  print(“\n\nINCORRECT RESPONSE TRY AGAIN”)
  choice = input(“Do you put of the fire or chase Doctor Malice?\n\n”)
- if choice == “fire” or choice == “Fire” or choice == “put out fire” or choice == “Put out fire” or choice == “put out the fire” or choice == “Put out the fire”:
+ if choice == “fire” or choice == “Fire” or choice == “put out fire” or choice == “Put out fire” or choice == “put out the fire” or choice == “Put out the fire” or choice == “put out” or choice == “Put out” or choice == “the fire” or choice == “The fire”:
   fire()
- elif choice == “chase” or choice == “Chase” or choice == “chase doctor malice” or choice == “Chase doctor malice” or choice == “Chase Doctor Malice” or choice == “chase Doctor Malice” or choice == “Chase dr malice” or choice == “chase dr malice” or choice == “Chase Dr malice” or choice == “chase Dr malice” or choice == “chase dr Malice” or choice == “Chase dr malice” or choice == “chase Dr Malice” or choice == “Chase Dr Malice” or choice == “chase doctor Malice” or choice == “Chase doctor Malice” or choice == “Chase dr. malice” or choice == “chase dr. malice” or choice == “Chase Dr. malice” or choice == “chase Dr. malice” or choice == “chase dr. Malice” or choice == “Chase dr. malice” or choice == “chase Dr. Malice” or choice == “Chase Dr. Malice”:
+ elif choice == “chase” or choice == “Chase” or choice == “chase doctor malice” or choice == “Chase doctor malice” or choice == “Chase Doctor Malice” or choice == “chase Doctor Malice” or choice == “Chase dr malice” or choice == “chase dr malice” or choice == “Chase Dr malice” or choice == “chase Dr malice” or choice == “chase dr Malice” or choice == “Chase dr malice” or choice == “chase Dr Malice” or choice == “Chase Dr Malice” or choice == “chase doctor Malice” or choice == “Chase doctor Malice” or choice == “Chase dr. malice” or choice == “chase dr. malice” or choice == “Chase Dr. malice” or choice == “chase Dr. malice” or choice == “chase dr. Malice” or choice == “Chase dr. malice” or choice == “chase Dr. Malice” or choice == “Chase Dr. Malice” or choice == “chase Doctor malice” or choice == “Chase Doctor Malice” or choice == “chase doctor Malice” or choice == “Chase doctor Malice” or choice == “Doctor Malice” or choice == “Doctor malice” or choice == “doctor malice” or choice == “doctor Malice” or choice == “dr malice” or choice == “dr Malice” or choice == “Dr malice” or choice == “Dr Malice” or choice == “dr. malice” or choice == “dr. Malice” or choice == “Dr. Malice” or choice == “Dr. malice”:
   malice()
  else:
   redoExplosion()
@@ -185,9 +185,9 @@ def fire():
  print(“While extinguishing the flames you see someone run deeper into the building.”)
  print(“If you hurry you might be able to catch Doctor Malice.”)
  choice = input(“Will you investigate the prison or catch Doctor Malice?\n\n”)
- if choice == “investigate” or choice == “Investigate” or choice == “investigate the prison” or choice == “Investigate the prison” or choice == “investigate prison” or choice == “Investigate prison”:
+ if choice == “investigate” or choice == “Investigate” or choice == “investigate the prison” or choice == “Investigate the prison” or choice == “investigate prison” or choice == “Investigate prison” or choice == “the prison” or choice == “The prison” or choice == “Prison” or choice == “prison”:
   investigate()
- elif choice == “catch” or choice == “Catch” or choice == “catch doctor malice” or choice == “Catch doctor malice” or choice == “Catch Doctor Malice” or choice == “catch Doctor Malice”:
+ elif choice == “catch” or choice == “Catch” or choice == “catch doctor malice” or choice == “Catch doctor malice” or choice == “Catch Doctor Malice” or choice == “catch Doctor Malice” or choice == “Catch dr malice” or choice == “catch dr malice” or choice == “Catch Dr malice” or choice == “catch Dr malice” or choice == “catch dr Malice” or choice == “Catch dr malice” or choice == “catch Dr Malice” or choice == “Catch Dr Malice” or choice == “catch doctor Malice” or choice == “Catch doctor Malice” or choice == “Catch dr. malice” or choice == “catch dr. malice” or choice == “Catch Dr. malice” or choice == “catch Dr. malice” or choice == “catch dr. Malice” or choice == “Catch dr. malice” or choice == “catch Dr. Malice” or choice == “Catch Dr. Malice” or choice == “catch Doctor malice” or choice == “Catch Doctor Malice” or choice == “catch doctor Malice” or choice == “Catch doctor Malice” or choice == “Doctor Malice” or choice == “Doctor malice” or choice == “doctor malice” or choice == “doctor Malice” or choice == “dr malice” or choice == “dr Malice” or choice == “Dr malice” or choice == “Dr Malice” or choice == “dr. malice” or choice == “dr. Malice” or choice == “Dr. Malice” or choice == “Dr. malice”:
   catch()
  else:
   redoFire()
@@ -195,10 +195,9 @@ def fire():
 def redoFire():
  print(“\n\nINCORRECT RESPONSE TRY AGAIN”)
  choice = input(“Will you investigate the prison or catch Doctor Malice?\n\n”)
- if choice == “investigate” or choice == “Investigate” or choice == “investigate the prison” or choice == “Investigate the prison” or choice == “investigate prison” or choice == “Investigate prison”:
+ if choice == “investigate” or choice == “Investigate” or choice == “investigate the prison” or choice == “Investigate the prison” or choice == “investigate prison” or choice == “Investigate prison” or choice == “the prison” or choice == “prison” or choice == “The prison” or choice == “Prison”:
   investigate()
- elif choice == “catch” or choice == “Catch” or choice == “catch doctor malice” or choice == “Catch doctor malice” or choice == “Catch Doctor Malice” or choice == “catch Doctor Malice”:
-  catch()
+ elif choice == “catch” or choice == “Catch” or choice == “catch doctor malice” or choice == “Catch doctor malice” or choice == “Catch Doctor Malice” or choice == “catch Doctor Malice” or choice == “Catch dr malice” or choice == “catch dr malice” or choice == “Catch Dr malice” or choice == “catch Dr malice” or choice == “catch dr Malice” or choice == “Catch dr malice” or choice == “catch Dr Malice” or choice == “Catch Dr Malice” or choice == “catch doctor Malice” or choice == “Catch doctor Malice” or choice == “Catch dr. malice” or choice == “catch dr. malice” or choice == “Catch Dr. malice” or choice == “catch Dr. malice” or choice == “catch dr. Malice” or choice == “Catch dr. malice” or choice == “catch Dr. Malice” or choice == “Catch Dr. Malice” or choice == “catch Doctor malice” or choice == “Catch Doctor Malice” or choice == “catch doctor Malice” or choice == “Catch doctor Malice” or choice == “Doctor Malice” or choice == “Doctor malice” or choice == “doctor malice” or choice == “doctor Malice” or choice == “dr malice” or choice == “dr Malice” or choice == “Dr malice” or choice == “Dr Malice” or choice == “dr. malice” or choice == “dr. Malice” or choice == “Dr. Malice” or choice == “Dr. malice”:  catch()
  else:
   redoFire()
 
@@ -302,7 +301,7 @@ def tornado():
  print(“\nYou fly into the tornado and manage to rescue the people trapped inside, “)
  print(“but you get thrown across the city. Debris is being thrown everywhere.”)
  choice = input(“You can either start flying people to safety or get back to the tornado.\n\n”)
- if choice == “fly people to safety” or choice == “Fly people to safety” or choice == “flying people to safety” or choice == “Flying people to safety” or choice == “fly people” or choice == “Fly people”:
+ if choice == “fly people to safety” or choice == “Fly people to safety” or choice == “flying people to safety” or choice == “Flying people to safety” or choice == “fly people” or choice == “Fly people” or choice == “Flying people” or choice == “flying people” or choice == “start flying” or choice == “Start flying” or choice == “Start flying people” or choice == “start flying people” or choice == “Start flying people to safety” or choice == “start flying people to safety” or choice == “Fly” or choice == “fly”:
   safety()
  elif choice == “get back to tornado” or choice == “Get back to tornado” or choice == “get back to the tornado” or choice == “Get back to the tornado” or choice == “get back” or choice == “Get back” or choice == “tornado” or choice == “Tornado” or choice == “The tornado” or choice == “the tornado”:
   back()
@@ -312,7 +311,7 @@ def tornado():
 def redoTornado():
  print(“\n\nINCORRECT RESPONSE TRY AGAIN”)
  choice = input(“You can either start flying people to safety or get back to the tornado.\n\n”)
- if choice == “fly people to safety” or choice == “Fly people to safety” or choice == “flying people to safety” or choice == “Flying people to safety” or choice == “fly people” or choice == “Fly people”:
+ if choice == “fly people to safety” or choice == “Fly people to safety” or choice == “flying people to safety” or choice == “Flying people to safety” or choice == “fly people” or choice == “Fly people” or choice == “Flying people” or choice == “flying people” or choice == “start flying” or choice == “Start flying” or choice == “Start flying people” or choice == “start flying people” or choice == “Start flying people to safety” or choice == “start flying people to safety” or choice == “Fly” or choice == “fly”:
   safety()
  elif choice == “get back to tornado” or choice == “Get back to tornado” or choice == “get back to the tornado” or choice == “Get back to the tornado” or choice == “get back” or choice == “Get back” or choice == “tornado” or choice == “Tornado” or choice == “The tornado” or choice == “the tornado”:
   back()
@@ -325,7 +324,7 @@ def safety():
  choice = input(“Do you try and take him out now or lead him away from the people?\n\n”)
  if choice == “take him out” or choice == “Take him out” or choice == “Take him out now” or choice == “take him out now” or choice == “Take out” or choice == “take out”:
   takeout()
- elif choice == “lead him away” or choice == “Lead him away” or choice == “lead him away from the people” or choice == “Lead him away from the people” or choice == “lead away” or choice == “Lead away”:
+ elif choice == “lead him away” or choice == “Lead him away” or choice == “lead him away from the people” or choice == “Lead him away from the people” or choice == “lead away” or choice == “Lead away” or choice == “lead him away from people” or choice == “Lead him away from people”:
   lead()
  else:
   redoSaftey()
@@ -335,7 +334,7 @@ def redoSaftey():
  choice = input(“Do you try and take him out now or lead him away from the people?\n\n”)
  if choice == “take him out” or choice == “Take him out” or choice == “Take him out now” or choice == “take him out now” or choice == “Take out” or choice == “take out”:
   takeout()
- elif choice == “lead him away” or choice == “Lead him away” or choice == “lead him away from the people” or choice == “Lead him away from the people” or choice == “lead away” or choice == “Lead away”:
+ elif choice == “lead him away” or choice == “Lead him away” or choice == “lead him away from the people” or choice == “Lead him away from the people” or choice == “lead away” or choice == “Lead away” or choice == “lead him away from people” or choice == “Lead him away from people”:
   lead()
  else:
   redoSaftey()
@@ -415,7 +414,7 @@ def cyclone():
  choice = input(“Do you dodge it by flying higher or landing on the ground?\n\n”)
  if choice == “fly higher” or choice == “Fly higher” or choice == “higher” or choice == “Higher” or choice == “Flying higher” or choice == “flying higher”:
   high()
- elif choice == “land on the ground” or choice == “Land on the ground” or choice == “land” or choice == “Land” or choice == “landing on the ground” or choice == “Landing on the ground” or choice == “land on ground” or choice “Land on ground” or choice == “Landing on ground” or choice == “landing on ground”:
+ elif choice == “land on the ground” or choice == “Land on the ground” or choice == “land” or choice == “Land” or choice == “landing on the ground” or choice == “Landing on the ground” or choice == “land on ground” or choice == “Land on ground” or choice == “Landing on ground” or choice == “landing on ground”:
   ground()
  else:
   redoCyclone()
@@ -434,7 +433,7 @@ def high():
  print(“\n\nYou dodge the attack by flying higher into the air. Cyclone chases you through the sky.”)
  print(“You see a group of clouds up ahead.”)
  choice = input(“You can hide in the clouds and ambush Cyclone or use the clouds to escape.\n\n”)
- if choice == “hide” or choice == “Hide” or choice == “Hide in the clouds” or choice == “hide in the clouds” or choice == “ambush Cyclone” or choice == “Ambush Cyclone” or choice == “ambush cyclone” or choice == “ambush Cyclone” or choice == “hide in clouds” or choice == “Hide in clouds” or choice == “hide in the clouds and ambush cyclone” or choice == “Hide in the clouds and ambush cyclone” or choice == “hide in the clouds and ambush Cyclone” or choice == “Hide in the clouds and ambush Cyclone”:
+ if choice == “hide” or choice == “Hide” or choice == “Hide in the clouds” or choice == “hide in the clouds” or choice == “ambush Cyclone” or choice == “Ambush Cyclone” or choice == “ambush cyclone” or choice == “ambush Cyclone” or choice == “hide in clouds” or choice == “Hide in clouds” or choice == “hide in the clouds and ambush cyclone” or choice == “Hide in the clouds and ambush cyclone” or choice == “hide in the clouds and ambush Cyclone” or choice == “Hide in the clouds and ambush Cyclone” or choice == “hide in the clouds and ambush” or choice == “Hide in the clouds and ambush” or choice == “hide in clouds and ambush” or choice == “Hide in clouds and ambush”:
   ambush()
  elif choice == “escape” or choice == “Escape” or choice == “use the clouds to escape” or choice == “Use the clouds to escape” or choice == “use clouds to escape” or choice == “Use clouds to escape”:
   escape()
@@ -444,7 +443,7 @@ def high():
 def redoHigh():
  print(“\n\nINCORRECT RESPONSE TRY AGAIN”)
  choice = input(“You can hide in the clouds and ambush Cyclone or use the clouds to escape.\n\n”)
- if choice == “hide” or choice == “Hide” or choice == “Hide in the clouds” or choice == “hide in the clouds” or choice == “ambush Cyclone” or choice == “Ambush Cyclone” or choice == “ambush cyclone” or choice == “ambush Cyclone” or choice == “hide in clouds” or choice == “Hide in clouds” or choice == “hide in the clouds and ambush cyclone” or choice == “Hide in the clouds and ambush cyclone” or choice == “hide in the clouds and ambush Cyclone” or choice == “Hide in the clouds and ambush Cyclone”:
+ if choice == “hide” or choice == “Hide” or choice == “Hide in the clouds” or choice == “hide in the clouds” or choice == “ambush Cyclone” or choice == “Ambush Cyclone” or choice == “ambush cyclone” or choice == “ambush Cyclone” or choice == “hide in clouds” or choice == “Hide in clouds” or choice == “hide in the clouds and ambush cyclone” or choice == “Hide in the clouds and ambush cyclone” or choice == “hide in the clouds and ambush Cyclone” or choice == “Hide in the clouds and ambush Cyclone” or choice == “hide in the clouds and ambush” or choice == “Hide in the clouds and ambush” or choice == “hide in clouds and ambush” or choice == “Hide in clouds and ambush”:
   ambush()
  elif choice == “escape” or choice == “Escape” or choice == “use the clouds to escape” or choice == “Use the clouds to escape” or choice == “use clouds to escape” or choice == “Use clouds to escape”:
   escape()
@@ -453,7 +452,7 @@ def redoHigh():
 
 def ambush():
  print(“\n\nYou fly into the clouds and hide. You cannot see Cyclone, but you can hear him.”)
- print(“When he get close you fly into him with all your strength, knocking him out.”)
+ print(“When he gets close you fly into him with all your strength, knocking him out.”)
  print(“You defeated Cyclone and the city is safe once more.”)
  choice = input(“Ending 13   Do you want to play again?\n\n”)
  if choice == “yes” or choice == “Yes”:
@@ -526,7 +525,7 @@ def speed():
  print(“The mysterious individual reveals that she travels across worlds and dimensions to challenge people that she deems fast enough.”)
  print(“She tells you the rules. If you win, she will leave you and the city alone, but if she wins, she will absorb your speed and cause chaos throughout the city.”)
  choice = input(“Do you accept the race or attack?\n\n”)
- if choice == “accept the race” or choice == “Accept the race” or choice == “I accept” or choice == “I accept the race” or choice == “race” or choice == “Race” or choice == “race her” or choice == “Race her” or choice == “Accept race” or choice == “accept race”:
+ if choice == “accept the race” or choice == “Accept the race” or choice == “I accept” or choice == “I accept the race” or choice == “race” or choice == “Race” or choice == “race her” or choice == “Race her” or choice == “Accept race” or choice == “accept race” or choice == “accept” or choice == “Accept”:
   race()
  elif choice == “attack” or choice == “Attack” or choice == “attack her” or choice == “Attack her” or choice == “I attack” or choice == “I attack her”:
   attackHer()
@@ -536,7 +535,7 @@ def speed():
 def redoSpeed():
  print(“\n\nINCORRECT RESPONSE TRY AGAIN”)
  choice = input(“Do you accept the race or attack?\n\n”)
- if choice == “accept the race” or choice == “Accept the race” or choice == “I accept” or choice == “I accept the race” or choice == “Race” or choice == “race” or choice == “race her” or choice == “Race her” or choice == “accept race” or choice == “Accept race”:
+ if choice == “accept the race” or choice == “Accept the race” or choice == “I accept” or choice == “I accept the race” or choice == “Race” or choice == “race” or choice == “race her” or choice == “Race her” or choice == “accept race” or choice == “Accept race” or choice == “Accept” or choice == “accept”:
   race()
  elif choice == “attack” or choice == “Attack” or choice == “attack her” or choice == “Attack her” or choice == “I attack” or choice == “I attack her”:
   attackHer()
@@ -550,9 +549,9 @@ def race():
  print(“You’ve never ran this fast before. You’ve never had to run across water before.”)
  print(“You don’t even know if you can, or what would happen if you ran that fast.”)
  choice = input(“Do you risk it and run faster or keep the same speed?\n\n”)
- if choice == “risk it” or choice == “Risk it” or choice == “run faster” or choice == “Run faster” or choice == “Risk it and run faster” or choice == “risk it and run faster”:
+ if choice == “risk it” or choice == “Risk it” or choice == “run faster” or choice == “Run faster” or choice == “Risk it and run faster” or choice == “risk it and run faster” or choice == “risk” or choice == “Risk”:
   fast()
- elif choice == “same speed” or choice == “Same speed” or choice == “keep the same speed” or “Keep the same speed” or choice == “keep same speed” or choice == “Keep same speed”:
+ elif choice == “same speed” or choice == “Same speed” or choice == “keep the same speed” or “Keep the same speed” or choice == “keep same speed” or choice == “Keep same speed” or choice == “same” or choice == “Same” or choice == “keep” or choice == “Keep”:
   same()
  else:
   redoRace()
@@ -560,9 +559,9 @@ def race():
 def redoRace():
  print(“\n\nINCORRECT RESPONSE TRY AGAIN”)
  choice = input(“Do you risk it and run faster or keep the same speed?\n\n”)
- if choice == “risk it” or choice == “Risk it” or choice == “run faster” or choice == “Run faster” or choice == “Risk it and run faster” or choice == “risk it and run faster”:
+ if choice == “risk it” or choice == “Risk it” or choice == “run faster” or choice == “Run faster” or choice == “Risk it and run faster” or choice == “risk it and run faster” or choice == “risk” or choice == “Risk”:
   fast()
- elif choice == “same speed” or choice == “Same speed” or choice == “keep the same speed” or “Keep the same speed” or choice == “keep same speed” or choice == “Keep same speed”:
+ elif choice == “same speed” or choice == “Same speed” or choice == “keep the same speed” or “Keep the same speed” or choice == “keep same speed” or choice == “Keep same speed” or choice == “same” or choice == “Same” or choice == “keep” or choice == “Keep”:
   same()
  else:
   redoRace()
