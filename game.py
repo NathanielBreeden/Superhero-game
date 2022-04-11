@@ -90,9 +90,9 @@ def follow():
  print(“that this is the base of the villain Scorch. You find his plans for a brainwashing experiment.“)
  print(“After destroying his plans you are able to track down Scorch and defeat them.”)
  choice = input(“Ending 7   Do you want to play again?\n\n”)
- if choice == “yes” or choice == “Yes”:
+ if choice == “yes” or choice == “Yes” or choice == “Y” or choice == “y”:
   gameIntro()
- elif choice == “no” or choice == “No”:
+ elif choice == “no” or choice == “No” or choice == “n” or choice == “N”:
   print(“\n\nTHANKS FOR PLAYING”)
  else:
   redoPlay()
@@ -103,9 +103,9 @@ def interrogate():
  print(“from the prison break . You rush to the prison, but Scorch has already escaped.”)
  print(“You are however able to catch another villain, Dr. Malice, from escaping.”)
  choice = input(“Ending 8   Do you want to play again?\n\n”)
- if choice == “yes” or choice == “Yes”:
+ if choice == “yes” or choice == “Yes” or choice == “Y” or choice == “y”:
   gameIntro()
- elif choice == “no” or choice == “No”:
+ elif choice == “no” or choice == “No” or choice == “n” or choice == “N”:
   print(“\n\nTHANKS FOR PLAYING”)
  else:
   redoPlay()
@@ -139,9 +139,9 @@ def surrender():
  print(“Scorch tells you that you are hooked up to a brainwash machine and “)
  print(“that you are now under his command. He flips the switch, and everything goes black...”)
  choice = input(“Ending 5   Do you want to play again?\n\n”)
- if choice == “yes” or choice == “Yes”:
+ if choice == “yes” or choice == “Yes” or choice == “Y” or choice == “y”:
   gameIntro()
- elif choice == “no” or choice == “No”:
+ elif choice == “no” or choice == “No” or choice == “n” or choice == “N”:
   print(“\n\nTHANKS FOR PLAYING”)
  else:
   redoPlay()
@@ -150,9 +150,9 @@ def fight():
  print(“\n\nYou attempt to blast the person holding the gun with ice, but “)
  print(“you are too slow, and they shoot you. You fall to the ground and die.”)
  choice = input(“Ending 6   Do you want to play again?\n\n”)
- if choice == “yes” or choice == “Yes”:
+ if choice == “yes” or choice == “Yes” or choice == “y” or choice == “Y”:
   gameIntro()
- elif choice == “no” or choice == “No”:
+ elif choice == “no” or choice == “No” or choice == “n” or choice == “N”:
   print(“\n\nTHANKS FOR PLAYING”)
  else:
   redoPlay()
@@ -206,9 +206,9 @@ def investigate():
  print(“It is revealed that the mysterious figure is your power opposite, Scorch. Scorch used their powers to cause the explosion.”)
  print (“You begin to battle. Eventually you are able to freeze him. You won this fight, but Doctor Malice is still on the loose.”)
  choice =input(“Ending 1   Do you want to play again?\n\n”)
- if choice == “yes” or choice == “Yes”:
+ if choice == “yes” or choice == “Yes” or choice == “y” or choice == “Y”:
   gameIntro()
- elif choice == “no” or choice == “No”:
+ elif choice == “no” or choice == “No” or choice == “n” or choice == “N”:
   print(“\n\nTHANKS FOR PLAYING”)
  else:
   redoPlay()
@@ -221,9 +221,9 @@ def catch():
  print(“You get overwhelmed but eventually win. The people are safe.”)
  print(“Doctor Malice gets away during the battle and meets up with the villain Scorch.”)
  choice = input(“Ending 2   Do you want to play again?\n\n”)
- if choice == “yes” or choice == “Yes”:
+ if choice == “yes” or choice == “Yes” or choice == “y” or choice == “Y”:
   gameIntro()
- elif choice == “no” or choice == “No”:
+ elif choice == “no” or choice == “No” or choice == “n” or choice == “N”:
   print(“\n\nTHANKS FOR PLAYING”)
  else:
   redoPlay()
@@ -256,9 +256,9 @@ def attack():
  print(“Your Icicle shards have killed him, causing you to break your no kill rule.”)
  print(“Everyone is safe. You won, but a part of you doesn’t feel like you did.”)
  choice = input(“Ending 3   Do you want to play again?\n\n”)
- if choice == “yes” or choice == “Yes”:
+ if choice == “yes” or choice == “Yes” or choice == “y” or choice == “Y”:
   gameIntro()
- elif choice == “no” or choice == “No”:
+ elif choice == “no” or choice == “No” or choice == “n” or choice == “N”:
   print(“\n\nTHANKS FOR PLAYING”)
  else:
   redoPlay()
@@ -268,9 +268,9 @@ def block():
  print(“Before Doctor Malice can send out a second attack, you freeze him from the neck down”)
  print(“Capital City is safe. Doctor Malice will be going away for a long time.”)
  choice = input(“Ending 4 Do you want to play again?\n\n”)
- if choice == “yes” or choice == “Yes”:
+ if choice == “yes” or choice == “Yes” or choice == “Y” or choice == “y”:
   gameIntro()
- elif choice == “no” or choice == “No”:
+ elif choice == “no” or choice == “No” or choice == “n” or choice == “N”:
   print(“\n\nTHANKS FOR PLAYING”)
  else:
   redoPlay() 
@@ -280,7 +280,7 @@ def flight():
  print(“You are flying over the city, when suddenly the evil villain Cyclone appears!”)
  print(“Cyclone creates a tornado and begins to terrorize the city.”)
  choice = input(“Do you fly into the tornado or attack Cyclone?\n\n”)
- if choice == “fly” or choice == “Fly” or choice == “fly into the tornado” or choice == “Fly into the tornado” or choice == “Fly into tornado” or choice == “fly into tornado” or choice == “tornado” or choice == “Tornado” or choice == “The tornado” or choice == “the tornado”:
+ if choice == “fly” or choice == “Fly” or choice == “fly into the tornado” or choice == “Fly into the tornado” or choice == “Fly into tornado” or choice == “fly into tornado” or choice == “tornado” or choice == “Tornado” or choice == “The tornado” or choice == “the tornado” or choice == “Fly into” or choice == “fly into”:
   tornado()
  elif choice == “attack” or choice == “Attack” or choice == “attack cyclone” or choice == “Attack cyclone” or choice == “attack Cyclone” or choice == “Attack Cyclone”:
   cyclone()
@@ -301,7 +301,7 @@ def tornado():
  print(“\nYou fly into the tornado and manage to rescue the people trapped inside, “)
  print(“but you get thrown across the city. Debris is being thrown everywhere.”)
  choice = input(“You can either start flying people to safety or get back to the tornado.\n\n”)
- if choice == “fly people to safety” or choice == “Fly people to safety” or choice == “flying people to safety” or choice == “Flying people to safety” or choice == “fly people” or choice == “Fly people” or choice == “Flying people” or choice == “flying people” or choice == “start flying” or choice == “Start flying” or choice == “Start flying people” or choice == “start flying people” or choice == “Start flying people to safety” or choice == “start flying people to safety” or choice == “Fly” or choice == “fly”:
+ if choice == “fly people to safety” or choice == “Fly people to safety” or choice == “flying people to safety” or choice == “Flying people to safety” or choice == “fly people” or choice == “Fly people” or choice == “Flying people” or choice == “flying people” or choice == “start flying” or choice == “Start flying” or choice == “Start flying people” or choice == “start flying people” or choice == “Start flying people to safety” or choice == “start flying people to safety” or choice == “Fly” or choice == “fly” or choice == “safety” or choice == “Safety” or choice == “Fly to safety” or choice == “fly to safety” or choice == “flying to safety” or choice == “Flying to safety” or choice == “Start flying to safety” or choice == “start flying to safety”:
   safety()
  elif choice == “get back to tornado” or choice == “Get back to tornado” or choice == “get back to the tornado” or choice == “Get back to the tornado” or choice == “get back” or choice == “Get back” or choice == “tornado” or choice == “Tornado” or choice == “The tornado” or choice == “the tornado”:
   back()
@@ -311,7 +311,7 @@ def tornado():
 def redoTornado():
  print(“\n\nINCORRECT RESPONSE TRY AGAIN”)
  choice = input(“You can either start flying people to safety or get back to the tornado.\n\n”)
- if choice == “fly people to safety” or choice == “Fly people to safety” or choice == “flying people to safety” or choice == “Flying people to safety” or choice == “fly people” or choice == “Fly people” or choice == “Flying people” or choice == “flying people” or choice == “start flying” or choice == “Start flying” or choice == “Start flying people” or choice == “start flying people” or choice == “Start flying people to safety” or choice == “start flying people to safety” or choice == “Fly” or choice == “fly”:
+ if choice == “fly people to safety” or choice == “Fly people to safety” or choice == “flying people to safety” or choice == “Flying people to safety” or choice == “fly people” or choice == “Fly people” or choice == “Flying people” or choice == “flying people” or choice == “start flying” or choice == “Start flying” or choice == “Start flying people” or choice == “start flying people” or choice == “Start flying people to safety” or choice == “start flying people to safety” or choice == “Fly” or choice == “fly” or choice == “safety” or choice == “Safety” or choice == “Fly to safety” or choice == “fly to safety” or choice == “flying to safety” or choice == “Flying to safety” or choice == “Start flying to safety” or choice == “start flying to safety”:
   safety()
  elif choice == “get back to tornado” or choice == “Get back to tornado” or choice == “get back to the tornado” or choice == “Get back to the tornado” or choice == “get back” or choice == “Get back” or choice == “tornado” or choice == “Tornado” or choice == “The tornado” or choice == “the tornado”:
   back()
@@ -322,7 +322,7 @@ def safety():
  print(“\n\nYou start flying everyone to a safe area. You start to get exhausted.”)
  print(“Cyclone notices this and makes his way to you. You begin to battle.”)
  choice = input(“Do you try and take him out now or lead him away from the people?\n\n”)
- if choice == “take him out” or choice == “Take him out” or choice == “Take him out now” or choice == “take him out now” or choice == “Take out” or choice == “take out”:
+ if choice == “take him out” or choice == “Take him out” or choice == “Take him out now” or choice == “take him out now” or choice == “Take out” or choice == “take out” or choice == “now” or choice == “Now” or choice == “Take out now” or choice == “take out now”:
   takeout()
  elif choice == “lead him away” or choice == “Lead him away” or choice == “lead him away from the people” or choice == “Lead him away from the people” or choice == “lead away” or choice == “Lead away” or choice == “lead him away from people” or choice == “Lead him away from people”:
   lead()
@@ -332,7 +332,7 @@ def safety():
 def redoSaftey():
  print(“\n\nINCORRECT RESPONSE TRY AGAIN”)
  choice = input(“Do you try and take him out now or lead him away from the people?\n\n”)
- if choice == “take him out” or choice == “Take him out” or choice == “Take him out now” or choice == “take him out now” or choice == “Take out” or choice == “take out”:
+ if choice == “take him out” or choice == “Take him out” or choice == “Take him out now” or choice == “take him out now” or choice == “Take out” or choice == “take out” or choice == “now” or choice == “Now” or choice == “take out now” or choice == “Take out now”:
   takeout()
  elif choice == “lead him away” or choice == “Lead him away” or choice == “lead him away from the people” or choice == “Lead him away from the people” or choice == “lead away” or choice == “Lead away” or choice == “lead him away from people” or choice == “Lead him away from people”:
   lead()
@@ -344,9 +344,9 @@ def lead():
  print(“You are able to defeat Cyclone but pass out from exhaustion.”)
  print(“You crash but barely survive. Your injuries are too great, and you won’t be able to fly again.”)
  choice = input(“Ending 9   Do you want to play again?\n\n”)
- if choice == “yes” or choice == “Yes”:
+ if choice == “yes” or choice == “Yes” or choice == “Y” or choice == “y”:
   gameIntro()
- elif choice == “no” or choice == “No”:
+ elif choice == “no” or choice == “No” or choice == “n” or choice == “N”:
   print(“\n\nTHANKS FOR PLAYING”)
  else:
   redoPlay()
@@ -356,9 +356,9 @@ def takeout():
  print(“You manage to finally defeat Cyclone, but some people were injured during your battle.”)
  print(“You spend the rest of the day flying people to hospitals.”) 
  choice = input(“Ending 10   Do you want to play again?\n\n”)
- if choice == “yes” or choice == “Yes”:
+ if choice == “yes” or choice == “Yes” or choice == “Y” or choice == “y”:
   gameIntro()
- elif choice == “no” or choice == “No”:
+ elif choice == “no” or choice == “No” or choice == “N” or choice == “n”:
   print(“\n\nTHANKS FOR PLAYING”)
  else:
   redoPlay()
@@ -387,9 +387,9 @@ def around():
  print(“\n\nYou fly around the tornado in the opposite direction causing it to stop.”)
  print(“The people and city are safe, but Cyclone got away while you were flying.”)
  choice = input(“Ending 11   Do you want to play again?\n\n”)
- if choice == “yes” or choice == “Yes”:
+ if choice == “yes” or choice == “Yes” or choice == “y” or choice == “Y”:
   gameIntro()
- elif choice == “no” or choice == “No”:
+ elif choice == “no” or choice == “No” or choice == “N” or choice == “n”:
   print(“\n\nTHANKS FOR PLAYING”)
  else:
   redoPlay()
@@ -400,9 +400,9 @@ def into():
  print(“With the tornado gone you are able to defeat Cyclone.”)
  print(“The day is saved, minus some people injured from the debris.”)
  choice = input(“Ending 12   Do you want to play again?\n\n”)
- if choice == “yes” or choice == “Yes”:
+ if choice == “yes” or choice == “Yes” or choice == “Y” or choice == “y”:
   gameIntro()
- elif choice == “no” or choice == “No”:
+ elif choice == “no” or choice == “No” or choice == “N” or choice == “n”:
   print(“\n\nTHANKS FOR PLAYING”)
  else:
   redoPlay()
@@ -414,7 +414,7 @@ def cyclone():
  choice = input(“Do you dodge it by flying higher or landing on the ground?\n\n”)
  if choice == “fly higher” or choice == “Fly higher” or choice == “higher” or choice == “Higher” or choice == “Flying higher” or choice == “flying higher”:
   high()
- elif choice == “land on the ground” or choice == “Land on the ground” or choice == “land” or choice == “Land” or choice == “landing on the ground” or choice == “Landing on the ground” or choice == “land on ground” or choice == “Land on ground” or choice == “Landing on ground” or choice == “landing on ground”:
+ elif choice == “land on the ground” or choice == “Land on the ground” or choice == “land” or choice == “Land” or choice == “landing on the ground” or choice == “Landing on the ground” or choice == “land on ground” or choice == “Land on ground” or choice == “Landing on ground” or choice == “landing on ground” or choice == “Ground” or choice == “ground”:
   ground()
  else:
   redoCyclone()
@@ -424,7 +424,7 @@ def redoCyclone():
  choice = input(“Do you dodge it by flying higher or landing on the ground?\n\n”)
  if choice == “fly higher” or choice == “Fly higher” or choice == “higher” or choice == “Higher” or choice == “Flying higher” or choice == “flying higher”:
   high()
- elif choice == “land on the ground” or choice == “Land on the ground” or choice == “land” or choice == “Land” or choice == “landing on the ground” or choice == “Landing on the ground” or choice == “land on ground” or choice == “Land on ground” or choice == “Landing on ground” or choice == “landing on ground”:
+ elif choice == “land on the ground” or choice == “Land on the ground” or choice == “land” or choice == “Land” or choice == “landing on the ground” or choice == “Landing on the ground” or choice == “land on ground” or choice == “Land on ground” or choice == “Landing on ground” or choice == “landing on ground” or choice == “ground” or choice == “Ground”:
   ground()
  else:
   redoCyclone()
@@ -433,7 +433,7 @@ def high():
  print(“\n\nYou dodge the attack by flying higher into the air. Cyclone chases you through the sky.”)
  print(“You see a group of clouds up ahead.”)
  choice = input(“You can hide in the clouds and ambush Cyclone or use the clouds to escape.\n\n”)
- if choice == “hide” or choice == “Hide” or choice == “Hide in the clouds” or choice == “hide in the clouds” or choice == “ambush Cyclone” or choice == “Ambush Cyclone” or choice == “ambush cyclone” or choice == “ambush Cyclone” or choice == “hide in clouds” or choice == “Hide in clouds” or choice == “hide in the clouds and ambush cyclone” or choice == “Hide in the clouds and ambush cyclone” or choice == “hide in the clouds and ambush Cyclone” or choice == “Hide in the clouds and ambush Cyclone” or choice == “hide in the clouds and ambush” or choice == “Hide in the clouds and ambush” or choice == “hide in clouds and ambush” or choice == “Hide in clouds and ambush”:
+ if choice == “hide” or choice == “Hide” or choice == “Hide in the clouds” or choice == “hide in the clouds” or choice == “ambush Cyclone” or choice == “Ambush Cyclone” or choice == “ambush cyclone” or choice == “ambush Cyclone” or choice == “hide in clouds” or choice == “Hide in clouds” or choice == “hide in the clouds and ambush cyclone” or choice == “Hide in the clouds and ambush cyclone” or choice == “hide in the clouds and ambush Cyclone” or choice == “Hide in the clouds and ambush Cyclone” or choice == “hide in the clouds and ambush” or choice == “Hide in the clouds and ambush” or choice == “hide in clouds and ambush” or choice == “Hide in clouds and ambush” or choice == “Ambush” or choice == “ambush”:
   ambush()
  elif choice == “escape” or choice == “Escape” or choice == “use the clouds to escape” or choice == “Use the clouds to escape” or choice == “use clouds to escape” or choice == “Use clouds to escape”:
   escape()
@@ -443,7 +443,7 @@ def high():
 def redoHigh():
  print(“\n\nINCORRECT RESPONSE TRY AGAIN”)
  choice = input(“You can hide in the clouds and ambush Cyclone or use the clouds to escape.\n\n”)
- if choice == “hide” or choice == “Hide” or choice == “Hide in the clouds” or choice == “hide in the clouds” or choice == “ambush Cyclone” or choice == “Ambush Cyclone” or choice == “ambush cyclone” or choice == “ambush Cyclone” or choice == “hide in clouds” or choice == “Hide in clouds” or choice == “hide in the clouds and ambush cyclone” or choice == “Hide in the clouds and ambush cyclone” or choice == “hide in the clouds and ambush Cyclone” or choice == “Hide in the clouds and ambush Cyclone” or choice == “hide in the clouds and ambush” or choice == “Hide in the clouds and ambush” or choice == “hide in clouds and ambush” or choice == “Hide in clouds and ambush”:
+ if choice == “hide” or choice == “Hide” or choice == “Hide in the clouds” or choice == “hide in the clouds” or choice == “ambush Cyclone” or choice == “Ambush Cyclone” or choice == “ambush cyclone” or choice == “ambush Cyclone” or choice == “hide in clouds” or choice == “Hide in clouds” or choice == “hide in the clouds and ambush cyclone” or choice == “Hide in the clouds and ambush cyclone” or choice == “hide in the clouds and ambush Cyclone” or choice == “Hide in the clouds and ambush Cyclone” or choice == “hide in the clouds and ambush” or choice == “Hide in the clouds and ambush” or choice == “hide in clouds and ambush” or choice == “Hide in clouds and ambush” or choice == “Ambush” or choice == “ambush”:
   ambush()
  elif choice == “escape” or choice == “Escape” or choice == “use the clouds to escape” or choice == “Use the clouds to escape” or choice == “use clouds to escape” or choice == “Use clouds to escape”:
   escape()
@@ -455,9 +455,9 @@ def ambush():
  print(“When he gets close you fly into him with all your strength, knocking him out.”)
  print(“You defeated Cyclone and the city is safe once more.”)
  choice = input(“Ending 13   Do you want to play again?\n\n”)
- if choice == “yes” or choice == “Yes”:
+ if choice == “yes” or choice == “Yes” or choice == “Y” or choice == “y”:
   gameIntro()
- elif choice == “no” or choice == “No”:
+ elif choice == “no” or choice == “No” or choice == “N” or choice == “n”:
   print(“\n\nTHANKS FOR PLAYING”)
  else:
   redoPlay()
@@ -467,9 +467,9 @@ def escape():
  print(“Once you regain your strength, you fly back to the city to help any injured people.”)
  print(“You will have to get Cyclone another day.”)
  choice = input(“Ending 14   Do you want to play again?\n\n”)
- if choice == “yes” or choice == “Yes”:
+ if choice == “yes” or choice == “Yes” or choice == “Y” or choice == “y”:
   gameIntro()
- elif choice == “no” or choice == “No”:
+ elif choice == “no” or choice == “No” or choice == “N” or choice == “n”:
   print(“\n\nTHANKS FOR PLAYING”)
  else:
   redoPlay()
@@ -479,9 +479,9 @@ def ground():
  print(“Cyclone flies down and begins using gusts of wind to throw cars at you.”)
  print(“You manage to dodge the cars and then fly straight at Cyclone.”)
  choice = input(“You can now either knock down cyclone or grab him.\n\n”)
- if choice == “knock down cyclone” or choice == “Knock down cyclone” or choice == “Knock down Cyclone” or choice == “knock down Cyclone” or choice == “knock him down” or choice == “Knock him down” or choice == “knock down” or choice == “Knock down”:
+ if choice == “knock down cyclone” or choice == “Knock down cyclone” or choice == “Knock down Cyclone” or choice == “knock down Cyclone” or choice == “knock him down” or choice == “Knock him down” or choice == “knock down” or choice == “Knock down” or choice == “Knock” or choice == “knock”:
   knock()
- elif choice ==  “grab him” or choice == “Grab him” or choice == “grab Cyclone” or choice == “Grab Cyclone” or choice == “Grab cyclone” or choice == “grab cyclone”:
+ elif choice ==  “grab him” or choice == “Grab him” or choice == “grab Cyclone” or choice == “Grab Cyclone” or choice == “Grab cyclone” or choice == “grab cyclone” or choice == “Grab” or choice == “grab”:
   grab()
  else:
   redoGround()
@@ -489,9 +489,9 @@ def ground():
 def redoGround():
  print(“\n\nINCORRECT RESPONSE TRY AGAIN”)
  choice = input(“You can now either knock down cyclone or grab him.\n\n”)
- if choice == “knock down cyclone” or choice == “Knock down cyclone” or choice == “Knock down Cyclone” or choice == “knock down Cyclone” or choice == “knock them down” or choice == “Knock them down” or choice == “knock down” or choice == “Knock down”:
+ if choice == “knock down cyclone” or choice == “Knock down cyclone” or choice == “Knock down Cyclone” or choice == “knock down Cyclone” or choice == “knock them down” or choice == “Knock them down” or choice == “knock down” or choice == “Knock down” or choice == “knock” or choice == “Knock”:
   knock()
- elif choice ==  “grab him” or choice == “Grab him” or choice == “grab Cyclone” or choice == “Grab Cyclone” or choice == “Grab cyclone” or choice == “grab cyclone”:
+ elif choice ==  “grab him” or choice == “Grab him” or choice == “grab Cyclone” or choice == “Grab Cyclone” or choice == “Grab cyclone” or choice == “grab cyclone” or choice == “grab” or choice == “Grab”:
   grab()
  else:
   redoGround()
@@ -500,9 +500,9 @@ def knock():
  print(“\n\nYou fly straight into Cyclone causing him to fly into a wall.”)
  print(“The wall crumbles around them rendering him unconscious, letting you win the battle.”)
  choice = input(“Ending 15   Do you want to play again?\n\n”)
- if choice == “yes” or choice == “Yes”:
+ if choice == “yes” or choice == “Yes” or choice == “Y” or choice == “y”:
   gameIntro()
- elif choice == “no” or choice == “No”:
+ elif choice == “no” or choice == “No” or choice == “n” or choice == “N”:
   print(“\n\nTHANKS FOR PLAYING”)
  else:
   redoPlay()
@@ -511,9 +511,9 @@ def grab():
  print(“\n\nYou grab Cyclone, fly into the air and spin around eventually letting him go.”)
  print(“Cyclone goes flying into the ocean, where the police will fish him out.”)
  choice = input(“Ending 16   Do you want to play again?\n\n”)
- if choice == “yes” or choice == “Yes”:
+ if choice == “yes” or choice == “Yes” or choice == “Y” or choice == “y”:
   gameIntro()
- elif choice == “no” or choice == “No”:
+ elif choice == “no” or choice == “No” or choice == “N” or choice == “n”:
   print(“\n\nTHANKS FOR PLAYING”)
  else:
   redoPlay()
@@ -573,9 +573,9 @@ def fast():
  print(“You stop running and everything burst back into motion. Your opponent eventually reaches you and admits defeat.”)
  print(“She keeps the agreement and leaves, saying that you were the first opponent to ever beat her.”)
  choice = input(“Ending 17   Do you want to play again?\n\n”)
- if choice == “yes” or choice == “Yes”:
+ if choice == “yes” or choice == “Yes” or choice == “Y” or choice == “y”:
   gameIntro()
- elif choice == “no” or choice == “No”:
+ elif choice == “no” or choice == “No” or choice == “N” or choice == “n”:
   print(“\n\nTHANKS FOR PLAYING”)
  else:
   redoPlay()
@@ -585,15 +585,15 @@ def same():
  print(“Sadly, it’s not enough to catch up to her, or even cross the ocean. You fall into the water.”)
  print(“She wins the race and absorbs your speed. Powerless you watch her begin to wreak havoc across the city.”)
  choice = input(“Ending 18   Do you want to play again?\n\n”)
- if choice == “yes” or choice == “Yes”:
+ if choice == “yes” or choice == “Yes” or choice == “Y” or choice == “y”:
   gameIntro()
- elif choice == “no” or choice == “No”:
+ elif choice == “no” or choice == “No” or choice == “N” or choice == “n”:
   print(“\n\nTHANKS FOR PLAYING”)
  else:
   redoPlay()
 
 def attackHer():
- print(“\n\nWith your speed you hit them before they see it coming.”)
+ print(“\n\nWith your speed you hit her before she sees it coming.”)
  print(“Furious that you rejected the race, she attacks you with equal speed.”)
  print(“You two have a fight across the entire city that feels like forever but has only taken a few seconds.”)
  choice = input(“You get seperated and she charges at you. Will you trip her or dodge her?\n\n”)
@@ -620,9 +620,9 @@ def dodge():
  print(“The final hit absorbs the last of your powers and she goes off to destroy the city.”)
  print(“When she’s done, she leaves to go find someone else to race, and you’re left in the rubble.”)
  choice = input(“Ending 19   Do you want to play again?\n\n”)
- if choice == “yes” or choice == “Yes”:
+ if choice == “yes” or choice == “Yes” or choice == “Y” or choice == “y”:
   gameIntro()
- elif choice == “no” or choice == “No”:
+ elif choice == “no” or choice == “No” or choice == “N” or choice == “n”:
   print(“\n\nTHANKS FOR PLAYING”)
  else:
   redoPlay()
@@ -634,9 +634,9 @@ def trip():
  print(“Angrily she states that you will regret not racing her and she’ll be back when she’s faster.”)
  print(“Then she disappears. The city is safe for now.”)
  choice = input(“Ending 20   Do you want to play again?\n\n”)
- if choice == “yes” or choice == “Yes”:
+ if choice == “yes” or choice == “Yes” or choice == “Y” or choice == “y”:
   gameIntro()
- elif choice == “no” or choice == “No”:
+ elif choice == “no” or choice == “No” or choice == “N” or choice == “n”:
   print(“\n\nTHANKS FOR PLAYING”)
  else:
   redoPlay()
